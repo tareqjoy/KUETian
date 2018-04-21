@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "738890150357",
+    "firebase_url": "https://sgipc-kuet.firebaseio.com",
+    "project_id": "sgipc-kuet",
+    "storage_bucket": "sgipc-kuet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738890150357:android:a639a1768c0ad43c",
+        "android_client_info": {
+          "package_name": "com.tareq.sgipckuet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738890150357-io2sb38n2haqapm29gfout799t19kvgv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tareq.sgipckuet",
+            "certificate_hash": "50eaa0407bff717f180bdced74ea224c7f9af47a"
+          }
+        },
+        {
+          "client_id": "738890150357-f19ef03je9s2n5rikn2jg0icq88r30ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXeSpZY7UqEhjLJUJ7RNfGUHl0ZxYHtI8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738890150357-f19ef03je9s2n5rikn2jg0icq88r30ch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

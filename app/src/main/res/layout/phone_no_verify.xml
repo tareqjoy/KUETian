@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/p880"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="25dp"
+        android:text="+880"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/phoneNoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/p880"
+        android:digits="1234567890"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="input phone no"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:textAlignment="viewStart" />
+
+    <ProgressBar
+        android:id="@+id/time_remain_phone"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneNoEditText"
+        android:layout_marginTop="5dp"
+        android:max="120"
+        android:progress="0"
+        android:visibility="invisible" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_remain_phone"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/editPhoneNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Edit"  />
+        <Button
+            android:id="@+id/verifyPhoneNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Verify" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

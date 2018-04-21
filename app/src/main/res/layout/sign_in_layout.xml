@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+
+    android:fitsSystemWindows="true"
+    tools:context="com.tareq.kuetian.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/sign_in_progressBar"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+            <EditText
+                android:id="@+id/username_sign_in_editText"
+                style="@android:style/Widget.Material.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="67dp"
+                android:digits="QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890@."
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textColor="@color/lightgray"
+                android:textColorLink="@color/lightgray"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/password_sign_in_editText"
+                style="@android:style/Widget.Material.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/sign_in_button"
+                android:layout_below="@+id/username_sign_in_editText"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:textColor="@color/lightgray"
+                android:textColorLink="@color/lightgray"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/sign_in_button"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/password_sign_in_editText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="Sign in"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse"
+                android:textColor="@color/lightgray" />
+
+            <Button
+                android:id="@+id/forget_password_button"
+                style="@android:style/Widget.Material.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/sign_in_button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="53dp"
+                android:text="Forget Password?"
+                android:textColor="@color/lightgray"
+                android:textSize="18sp" />
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/forget_password_button"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="27dp"
+                android:layout_toStartOf="@+id/notRegis_unused"
+                android:background="@color/colorPrimaryDark"
+                android:backgroundTint="@color/colorPrimaryDark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/forget_password_button"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="27dp"
+                android:layout_toEndOf="@+id/notRegis_unused"
+                android:background="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/notRegis_unused"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/forget_password_button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="or"
+                android:textColor="@color/lightgray"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/go_to_sign_up_button"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/notRegis_unused"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="Sign up"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse"
+                android:textColor="@color/lightgray" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

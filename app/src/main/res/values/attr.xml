@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="single_info_view">
+        <attr name="infoOf" format="string" />
+        <attr name="infoValue" format="string" />
+        <attr name="showEditIcon" format="integer" />
+    </declare-styleable>
+</resources>

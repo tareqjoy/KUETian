@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">KUETian</string>
+    <string-array name="deptItems">
+        <item>--Select Department--</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>ECE</item>
+        <item>BME</item>
+        <item>MSE</item>
+        <item>ME</item>
+        <item>IEM</item>
+        <item>LE</item>
+        <item>TE</item>
+        <item>ESE</item>
+        <item>CE</item>
+        <item>URP</item>
+        <item>BECM</item>
+        <item>ARCH</item>
+    </string-array>
+    <string name="emptyBio">&quot;No bio or quotes.&quot;</string>
+</resources>
